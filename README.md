@@ -3,11 +3,11 @@
 ![architecture.png](doc/source/images/architecture.png)
 
 
-##Accessing the code
+## Accessing the code
 The code is available at the GitHub repository: https://github.com/zahraessa/AdventureWorld
 
 
-##Setting up the code
+## Setting up the code
 Prerequisites:
 1.	Create an IBM Cloud account:
 https://cloud.ibm.com/
@@ -16,11 +16,11 @@ https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-cli_install
 3.	Create an Amazon Developer Portal account:
 https://developer.amazon.com/
 
-##Clone the repository:
+## Clone the repository:
 $ git clone https://github.com/IBMIXN/UCLAdventureWorld
 $ cd AdventureWorld
 
-##Create a Watson Assistant Workspace:
+## Create a Watson Assistant Workspace:
 1.	Create an IBM Cloud account
 2.	Create a Watson Conversation skill by using this link: https://cloud.ibm.com/catalog/services/conversation
 3.	Go to the skills tab and click create skill
@@ -28,7 +28,7 @@ $ cd AdventureWorld
 5.	Click ‘Upload Skill’
 
 
-##Get relevant credentials:
+## Get relevant credentials:
 1.	Click the three dots on the skill on the Skills page.
 2.	Click ‘View API Details’
  ![view_api_details](doc/source/images/view_api_details.png)
@@ -40,7 +40,7 @@ $ cd AdventureWorld
  
  
 
-##Create the first OpenWhisk action:
+## Create the first OpenWhisk action:
 1.	Run the following commands in your local AdventureWorld folder:
 1. npm install
 2.	rm action.zip
@@ -56,7 +56,7 @@ ibmcloud wsk action update alexa-watson action.zip --kind nodejs:default --web r
 
 
 
-##Create the second OpenWhisk action:
+## Create the second OpenWhisk action:
 1.	Run the following commands in your local AdventureWorld folder:
 1. npm install
 2.	rm action.zip
@@ -72,7 +72,7 @@ ibmcloud wsk action update alexa-watson action.zip --kind nodejs:default --web r
 
 
 
-##Create the Alexa Skill:
+## Create the Alexa Skill:
 1.	Create Skill. 
 ![create_alexa_skill](doc/source/images/create_alexa_skill.png)
 ![select_custom_skill](doc/source/images/select_custom_skill.png)
@@ -92,7 +92,10 @@ ibmcloud wsk action update alexa-watson action.zip --kind nodejs:default --web r
 ![functions_endpoints](doc/source/images/functions_endpoints.png) 
 ![service_endpoint_type](doc/source/images/service_endpoint_type.png)
 
-
+###
+####
+###
+###
 
 # Adventure World User Guide
 1)	Say ‘Alexa, open Adventure World’.
